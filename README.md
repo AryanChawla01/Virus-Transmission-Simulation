@@ -1,6 +1,6 @@
 # Virus Transmission Simulation
 
-A Python simulation of pedestrians on a sidewalk, modeling avoidance behavior to mimic virus transmission dynamics. Built for the BDA450 assignment.
+A Python simulation of pedestrians on a sidewalk, modeling avoidance behavior to mimic virus transmission dynamics, visualized with Matplotlib.
 
 ## Author
 - **Aryan Chawla** - Data Science & Analytics Student  
@@ -10,7 +10,7 @@ A Python simulation of pedestrians on a sidewalk, modeling avoidance behavior to
 
 ## Project Overview
 
-This project simulates pedestrians moving eastward and westward on a 2D sidewalk grid. Agents avoid opposing team members within a set distance to simulate social distancing, visualized with a Matplotlib animation.
+This project simulates pedestrians moving eastward and westward on a 2D sidewalk grid. Agents avoid opposing team members within a set distance to simulate social distancing, displayed as a real-time animation.
 
 ## Technologies Used
 
@@ -22,7 +22,7 @@ This project simulates pedestrians moving eastward and westward on a 2D sidewalk
 ## File Structure
 
 Virus-Transmission-Simulation/  
-├── virus_transmission.py # Simulation code  
+├── virus_transmission_simulation.py # Simulation code  
 ├── README.md # Project documentation  
 ├── requirements.txt # Dependencies  
 └── .gitignore # Excludes unnecessary files  
@@ -56,11 +56,11 @@ Virus-Transmission-Simulation/
 
 2. Run the simulation:
    ```bash
-   python virus_transmission.py
+   python virus_transmission_simulation.py
    ```
 
 3. Customize (optional):
-   - Modify `SIDEWALK_WIDTH`, `SIDEWALK_LENGTH`, `INTERARRIVAL`, `CONCERN_DISTANCE`, or `SAFE_THRESHOLD` in `virus_transmission.py`.
+   - Modify `SIDEWALK_WIDTH`, `SIDEWALK_LENGTH`, `INTERARRIVAL`, `CONCERN_DISTANCE`, or `SAFE_THRESHOLD` in `virus_transmission_simulation.py`.
 
 ## How It Works
 
