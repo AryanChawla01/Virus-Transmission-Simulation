@@ -24,8 +24,7 @@ This project simulates pedestrians moving eastward and westward on a 2D sidewalk
 Virus-Transmission-Simulation/  
 ├── virus_transmission_simulation.py # Simulation code  
 ├── README.md # Project documentation  
-├── requirements.txt # Dependencies  
-└── .gitignore # Excludes unnecessary files  
+├── output figure.png #sample output screenshot
 
 ## Skills Demonstrated
 
